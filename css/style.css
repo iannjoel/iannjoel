@@ -17,15 +17,15 @@
 .navbar{
     position: fixed;
     width: 100%;
-    background: #FF6019;
+    background-color: #FF6926;
     padding: 5px 0;
     font-family:  Roboto, sans-serif;
     transition:  all 0.3s ease;
 }
 
 .navbar.sticky{
-    padding: 15px 0;
-    background: crimson;
+    padding: 5px 0;
+    background-color: #26FFE2;
 }
 
 .navbar .max-width{
@@ -45,8 +45,12 @@
     transition:  all 0.3s ease;
 
 }
+.navbar.sticky .logo a{
+    color: #9940FF;
+
+}
 .navbar.sticky .logo a span{
-    color: crimson;
+    color: #ffff00;
 
 }
 
@@ -58,17 +62,22 @@
 .navbar .menu  li a{
     display: block;
     color: #fff;
-    font-size: 18px;
     font-weight: 500;
     font-family: Roboto, sans-serif;
     margin-left:  25px;
     transition:  color 0.3s ease;
 }
+
+.navbar.sticky .menu  li a{
+    color: #9940FF;
+
+} 
 .navbar .menu  li a:hover{
-    color: #ffff00;
+    color: #7D00FF;
 }
+
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: #ffff00;
 }
 
 /* menu btn styling */
@@ -82,6 +91,7 @@
 /* home section styling */
 .home{
     display:  flex;
+    background-image: url("images/car.png");
     background-color: #7D00FF;
     height:  100vh;
     color:  #fff;
@@ -148,7 +158,7 @@
         width:  100%;
         left: -100%;
         top: 0;
-        background: #ffff00;
+        background: #0DFFE2;
         text-align: center;
         padding-top: 80px;
         transition:  all 0.3s ease;
@@ -166,6 +176,7 @@
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+        color: #FF6926;
     }
     .home .home-content .text-2{
         font-size: 70px;
