@@ -8,6 +8,7 @@
     text-decoration: none;
 }
 
+
 .max-width{
     max-width: 1300px;
     padding:  0 80px;
@@ -91,13 +92,13 @@
 /* home section styling */
 .home{
     display:  flex;
-    background-image: url("images/car.png");
     background-color: #7D00FF;
-    height:  100vh;
+    height:  50vh;
     color:  #fff;
     min-height:  500px;
     font-family:  Roboto, sans-serif;
 }
+
 
 .home .max-width{
     width: 100%;
@@ -127,6 +128,96 @@
     color:  #ffff00;
     font-weight:  500;
     line-height: 1;
+
+}
+
+
+.home2{
+    display:  flex;
+    background-image: url("../images/car.png")  no-repeat;
+    background-color: #FFFE19;
+    height:  75vh;
+    color:  #fff;
+    min-height:  500px;
+    font-family:  Roboto, sans-serif;
+}
+
+
+.home2 .max-width{
+    width: 100%;
+    display: flex;
+
+}
+.home2 .home-content .text-1{
+    font-size: 27px;
+    color: #7D00FF;
+    line-height: 1;
+}
+
+.home2 .home-content .text-2{
+    font-size: 75px;
+    color: #7D00FF;
+    font-weight: 600;
+    margin-right: -3px;
+    line-height: 1;
+
+}
+.home2 .home-content .text-3{
+    font-size: 40px;
+    color: #7D00FF;
+    margin: 5px 0;
+    line-height: 1;
+
+}
+
+.home2 .home-content .text-3 span{
+    color:  #FF6019;
+    font-weight:  500;
+    line-height: 1;
+    text-decoration: underline;
+
+
+}
+
+.home2 .home-content .text-3 span:hover{
+    color:  #26FFE2;
+    font-weight:  500;
+    line-height: 1;
+    text-decoration: underline;
+
+}
+
+.home3{
+    display:  flex;
+    background-color: #FFFE19;
+    height:  100vh;
+    color:  #fff;;
+    font-family:  Roboto, sans-serif;
+}
+
+
+.home3 .home-content p{
+    color: #7D00FF;
+    margin-top: 15px;
+    height:  25vh;
+    min-height: 500px;
+    font-family:  Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: -3px;
+    line-height: 1;
+   
+}
+
+
+.home3 .home-content p span{
+    text-decoration: underline;
+   
+}
+
+.home3 .max-width{
+    width: 100%;
+    display: flex;
 
 }
 
@@ -194,5 +285,17 @@
 
     .home .home-content .text-3{
         font-size: 27px; 
-    }
+ }
 
+@media (max-width: 947px){
+.home3 .max-width p {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 991px){
+    .max-width {
+        padding: 0px;
+
+
+    }
+}
