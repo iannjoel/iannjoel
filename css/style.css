@@ -135,7 +135,7 @@
     display:  flex;
     background-image: url("../images/car.png")  no-repeat;
     background-color: #FFFE19;
-    height:  75vh;
+    height:  50vh;
     color:  #fff;
     min-height:  500px;
     font-family:  Roboto, sans-serif;
@@ -189,7 +189,6 @@
 .home3 {
     display:  flex;
     background-color: #FFFE19;
-    height:  80vh;
     font-family:  Roboto, sans-serif;
 }
 
@@ -203,10 +202,10 @@
 .home3 .home-content p{
     color: #7D00FF;
     margin-top: 75px;
-    min-height: 700px;
     font-family:  Roboto, sans-serif;
     font-size: 15px;
     font-weight: 300;
+    margin-bottom: 25px;
     margin-left: -3px;
     line-height: 1;
    
