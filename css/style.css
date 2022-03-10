@@ -215,6 +215,61 @@
     text-decoration: underline;
 }
 
+.home4{
+    display:  flex;
+    background-image: url("../images/car.png")  no-repeat;
+    background-color: #FF0DEF;
+    height:  50vh;
+    color:  #fff;
+    min-height:  500px;
+    font-family:  Roboto, sans-serif;
+}
+
+
+.home4 .max-width{
+    width: 100%;
+    display: flex;
+
+}
+.home4 .home-content .text-1{
+    font-size: 27px;
+    color: #68FF26;
+    line-height: 1;
+}
+
+.home4 .home-content .text-2{
+    font-size: 75px;
+    color: #68FF26;
+    font-weight: 600;
+    margin-right: -3px;
+    line-height: 1;
+
+}
+.home4 .home-content .text-3{
+    font-size: 40px;
+    color: #68FF26;
+    margin: 5px 0;
+    line-height: 1;
+
+}
+
+.home4 .home-content .text-3 span{
+    color:  #FFFF19;
+    font-weight:  500;
+    line-height: 1;
+    text-decoration: underline;
+
+
+}
+
+.home4 .home-content .text-3 span:hover{
+    color:  #33FFE8;
+    font-weight:  500;
+    line-height: 1;
+    text-decoration: underline;
+
+}
+
 
 
 /* responsive media query start */
