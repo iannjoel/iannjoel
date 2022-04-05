@@ -270,6 +270,47 @@
 
 }
 
+.home5{
+    display:  flex;
+    background-color: #7D00FF;
+    height:  50vh;
+    color:  #fff;
+    min-height:  500px;
+    font-family:  Roboto, sans-serif;
+}
+
+
+.home5 .max-width{
+    width: 100%;
+    display: flex;
+
+}
+.home5 .home-content .text-1{
+    font-size: 27px;
+    line-height: 1;
+}
+
+.home5 .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    line-height: 1;
+
+}
+.home5 .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    line-height: 1;
+
+}
+
+.home5 .home-content .text-3 span{
+    color:  #ffff00;
+    font-weight:  500;
+    line-height: 1;
+
+}
+
 
 
 /* responsive media query start */
