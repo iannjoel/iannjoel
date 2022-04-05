@@ -297,18 +297,20 @@
     line-height: 1;
 
 }
-.home5 .home-content .text-3{
+.home5 .home-content .text-3 span{
+    color:  #FFFF19;
     font-size: 40px;
     margin: 5px 0;
     line-height: 1;
+    text-decoration: underline;
 
 }
 
-.home5 .home-content .text-3 span{
-    color:  #ffff00;
+.home5 .home-content .text-3 span:hover{
+    color:  #26FFE2;
     font-weight:  500;
     line-height: 1;
-
+    text-decoration: underline;
 }
 
 
