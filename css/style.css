@@ -136,6 +136,7 @@ li, a {
 }
 
 .navbar {
+  z-index: 2;
   display: flex;
   height: 20px;
   justify-content: space-between;
@@ -211,8 +212,9 @@ li, a {
 
 .wrapper .text-2{
   margin-right: 15px;
-  height: 90px;
+  height: 200px;
   line-height: 200px;
+  overflow: hidden;
 
 }
 
@@ -221,9 +223,21 @@ li, a {
   font-family: bebas-neue-pro-semiexpanded, sans-serif;
   color: #000;
   font-weight: 600;
-  font-size: 190px;
+  font-size: 200px;
+  position: relative;
+  top: 0;
+  animation:  slide 6s steps(5) infinite;
 
 }
+
+@keyframes slide{
+  100%{
+    top: -540px;
+  }
+
+}
+
+
 .text-2 li span{
   position: relative;
 }
