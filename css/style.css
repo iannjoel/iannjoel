@@ -23,7 +23,7 @@ li, a {
   position: relative;
 }
 
-.header {
+.intro {
   height: 100vh;
   width: 100%;
   background-image: url("../images/homebg1.png"); 
@@ -133,6 +133,12 @@ li, a {
 @keyframes fade {
   0%,100% { opacity: 0 }
   50% { opacity: 1 }
+}
+
+.header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
 }
 
 .navbar {
@@ -268,37 +274,6 @@ li, a {
 
 
 
-/* .home .width .home-content .text-1{
-  font-family: bebas-neue-pro-semiexpanded, sans-serif;
-  font-weight: 600;
-  float: right;
-  text-align: right;
-  font-size: 36px;
-}
-
-.home .width .home-content .text-1 span{
-  font-family: bebas-neue-pro-semiexpanded, sans-serif;
-  font-size: 36px;
-  text-align: right;
-  text-decoration: underline;
-}
-
-p {
-  margin: 0;
-  line-height: 150px;
-  float: right;
-  text-align: right;
-  }
-
-
-.home .width .home-content .text-2{
-  font-family: bebas-neue-pro-semiexpanded, sans-serif;
-  font-weight: 600;
-  font-size: 190px;
-
-}
-
-*/
 
 .home2{
   display: flex;
@@ -323,57 +298,3 @@ p {
 
 
 
-/*
-
-li, a {
-  font-family: bebas-neue-pro-semiexpanded, sans-serif;
-  color: #ffffff;
-  font-weight: 600;
-  font-style: normal;
-  text-decoration: none;
-
-}
-
-#home {
-  height: 100vh;
-  width: 100%;
-  background-image: url("../images/homebg.png");
-  background-size: cover;
-  position: relative;
-}
-
-#header {
-  position: fixed;
-  width: 100%;
-  padding: 10px 10%;
-  box-shadow: 1px 1px 1px #888888;
-}
-
-#header #nav-links {
-  display: flex;
-  align-items:  center;
-  justify-content: space-between;
-}
-
-
-#logo {
-  cursor: pointer;
-}
-
-#nav-links {
-  list-style: none;
-}
-
-#nav .nav-links li{
-  display:  inline-block;
-  padding: 0px 15px;
-}
-
-#nav-links li a{
-  transition:  all 0.3s ease 0s;
-}
-
-#nav-links li a:hover{
-  color: #000;
-}
-*/
